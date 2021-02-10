@@ -1,0 +1,351 @@
+.boxLoginE {
+  width: 100%;
+  height: 100%;
+  background: url("../images/bg_login.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 75% 100%;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  display: flex;
+}
+
+.txtLogin {
+  color: rgba(38,64,91,1);
+  margin-top: 4%;
+  margin-left: 5%;
+  opacity: 1;
+  text-align: left;
+  font-size: 1.2vw;
+  text-align: left;
+  display: block;
+  width: 40%;
+}
+
+
+.boxRodape {
+  width: 65%;
+  /* height: 133px; */
+  height: 15%;
+  background: rgba(38,64,90,0.5);
+  opacity: 1;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  overflow: hidden;
+  /* border: 1px solid white; */
+}
+
+.lblContato {
+  width: 30vw;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  bottom: 9vh;
+  left: 1vw;
+  font-family: Arial;
+  font-weight: Bold;
+  font-size: 2.5vh;
+  opacity: 1;
+  text-align: left;
+}
+
+.txtContato {
+  width: 30vw;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  bottom: 2.8vh;
+  left: 1vw;
+  font-family: Arial;
+  font-weight: Bold;
+  font-size: 1.8vh;
+  opacity: 1;
+  text-align: left;
+}
+
+.lblInfo {
+  width: 20vw;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  bottom: 9vh;
+  right: 1vw;
+  font-family: Arial;
+  font-weight: Bold;
+  font-size: 2.5vh;
+  opacity: 1;
+  text-align: right;
+}
+
+.txtInfo {
+  width: 20vw;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  bottom: 2.8vh;
+  right: 1vw;
+  font-family: Arial;
+  font-weight: Bold;
+  font-size: 1.8vh;
+  opacity: 1;
+  text-align: right;
+}
+
+.boxLogin {
+  width: 35%;
+  height: 100%;
+  background: linear-gradient(rgba(61,82,106,1), rgba(28,57,84,1));
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  /* left: 1233px; */
+  box-shadow: -3px 0px 10px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.imglogo {
+  top: 5vw;
+  position: absolute;
+  width: 40%;
+  display: block;
+}
+
+.boxForm {
+  width: 85%;
+  height: 33vw;
+  position: absolute;
+  top: 15vw;
+  /* border: 1px solid black; */
+}
+
+.txtTitulo {
+  color: rgba(255,255,255,1);
+  font-family: Arial;
+  font-size: 1.5vw;
+  text-align: left;
+  display: block;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+
+.lblEmail {
+  color: rgba(255,255,255,1);
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 0.9vw;
+  text-align: left;
+  display: block;
+  width: 100%;
+  top: 4vh;
+  left: 0.3vw;
+  position: relative;
+  /* border: 1px solid black; */
+}
+
+.inpEmail {
+  width: 100%;
+  height: 6vh;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 4.5vh;
+  font-size: 1.1vw;
+  border: 2px solid rgba(127,141,154,1);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  overflow: hidden;
+}
+
+.lblSenha {
+  color: rgba(255,255,255,1);
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 0.9vw;
+  text-align: left;
+  display: block;
+  width: 100%;
+  top: 6vh;
+  left: 0.3vw;
+  position: relative;
+  /* border: 1px solid black; */
+}
+
+.inpSenha {
+  width: 100%;
+  height: 6vh;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 6.5vh;
+  font-size: 1.1vw;
+  border: 2px solid rgba(127,141,154,1);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  overflow: hidden;
+}
+
+.txtEsqueci {
+  color: rgba(255,255,255,1);
+  font-family: Roboto;
+  /* font-weight: Bold; */
+  font-size: 0.75vw;
+  text-align: left;
+  display: block;
+  width: 100%;
+  top: 7vh;
+  left: 0.3vw;
+  position: relative;
+  /* border: 1px solid black; */
+}
+
+.boxEntrar {
+  width: 100%;
+  position: relative;
+  top: 9vh;
+  right: 0.3vw;
+  text-align: right;
+}
+
+.btnEntrar {
+  width: 150px;
+  /* position: relative; */
+}
+
+.lblNaoPossui {
+  color: rgba(255,255,255,1);
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 0.9vw;
+  text-align: left;
+  display: block;
+  width: 100%;
+  bottom: 1vh;
+  left: 0.3vw;
+  position: relative;
+  border: 1px solid black;
+}
+
+
+
+.v79_346 {
+  width: 41px;
+  height: 33px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 65px;
+  left: 37px;
+}
+.v79_347 {
+  width: 40px;
+  height: 40px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+.v79_348 {
+  width: 90px;
+  height: 118px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.v79_349 {
+  width: 148px;
+  height: 23px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 31px;
+  left: 104px;
+}
+.v79_350 {
+  width: 82px;
+  height: 28px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 57px;
+  left: 104px;
+}
+.v79_351 {
+  width: 83px;
+  height: 13px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 71px;
+  left: 189px;
+}
+.v79_354 {
+  width: 286px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 811px;
+  left: 1301px;
+  font-size: 16px;
+  opacity: 1;
+  text-align: justified;
+}
+.v79_355 {
+  width: 146px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 550px;
+  left: 1301px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 15px;
+  opacity: 1;
+  text-align: justified;
+}
+.v79_357 {
+  width: 191px;
+  height: 40px;
+  background: rgba(224,224,224,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.v79_358 {
+  width: 53px;
+  color: rgba(65,65,65,1);
+  position: absolute;
+  top: 8px;
+  left: 70px;
+  font-family: Roboto;
+  font-weight: Medium;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
+.v79_366 {
+  width: 78px;
+  color: rgba(166,166,166,1);
+  position: absolute;
+  top: 38px;
+  left: 0px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: justified;
+}
