@@ -1,7 +1,7 @@
 {
-  "name": "startup-web-retorno-facil",
-  "version": "1.0.0",
-  "author": "Jose Augusto Freire <aquarela.design@gmail.com>",
+  "name": "retorno-facil",
+  "version": "0.0.1",
+  "author": "Jose Augusto Freire Schroder <jose.schroder@arenatransautos.com.br>",
   "private": true,
   "license": "MIT",
   "scripts": {
@@ -13,8 +13,8 @@
     "vee-validate": "^2.2.8",
     "vue": "^2.6.10",
     "vue-axios": "^3.2.4",
-    "vue-axios-cors": "^1.0.1",
-    "vue-router": "^3.1.3",
+    "vue-cookies": "^1.7.4",
+    "vue-router": "^3.5.1",
     "vuex": "^3.1.2"
   },
   "devDependencies": {

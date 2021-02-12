@@ -1,5 +1,5 @@
 <template>
-  <div class="boxLoginE">
+  <div>
     <div v-if="alert.message" :class="`alert ${alert.type}`">
       {{ alert.message }}
     </div>
@@ -24,22 +24,9 @@ export default {
   },
   watch: {
     $route(to, from) {
-      // clear alert on location change
+      // alerta claro sobre mudança de local
       this.clearAlert();
     },
   },
 };
 </script>
-
-<style scoped>
-.boxLoginE {
-  width: 100%;
-  height: 100%;
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-  display: flex;
-}
-</style>

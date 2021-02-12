@@ -16,7 +16,6 @@ module.exports = {
                 test: /\.js?$/,
                 exclude: /(node_modules)/,
                 use: 'babel-loader'
-            
             }, 
             {
                 test: /\.(png|jpe?g|gif)$/i,
@@ -35,9 +34,9 @@ module.exports = {
         historyApiFallback: true
     },
     externals: {
-        // global app config object
+        // objeto de configuração de aplicativo global
         config: JSON.stringify({
-            apiUrl: 'http://localhost:4000'
+            apiUrl: 'http://localhost:95'
         })
     }
 }
